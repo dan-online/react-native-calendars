@@ -15,7 +15,8 @@ export default function getStyle(theme: Theme = {}) {
       alignItems: 'center'
     },
     emptyDayContainer: {
-      flex: 1
+      // flex: 1,
+      display:'none'
     },
     monthView: {
       backgroundColor: appStyle.calendarBackground
